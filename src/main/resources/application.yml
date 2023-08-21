@@ -1,0 +1,22 @@
+spring:
+  redis:
+    host: localhost
+    port: 8081
+    timeout: 86400
+    maximumActiveConnectionCount: 100
+    cache: musicPlayer
+
+
+trending:
+  tracks:
+    uri: chart/0/tracks
+  albums:
+    uri: chart/0/albums
+  artists:
+    uri: chart/0/artists
+  playlists:
+    uri: chart/0/playlists
+  podcasts:
+    uri: chart/0/podcasts
+
+search: https://api.deezer.com/search
